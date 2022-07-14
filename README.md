@@ -4,3 +4,5 @@ The original codebase was split between 4 different repos (mostly because the py
 
 For the GCB code, go into goalbisim folder
 Working on moving the launch scripts in so you may launch GCB and collect offline data.
+
+If you are still stuck, email hansenpmeche@berkeley.edu
