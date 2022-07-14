@@ -1,0 +1,2 @@
+# goalbisim
+Goal Bisimulation Project

@@ -1,0 +1,1 @@
+sbatch -A co_rail -p savio2 -t 980 -N 1 -n 1 --cpus-per-task=4 --wrap=$'source /global/scratch/users/hansenpmeche/RAIL/railrl-private/experiments/philippe/goalbisim/torch111.sh && python3 sawyer_v2_collection_script_v0.py'

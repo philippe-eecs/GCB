@@ -1,0 +1,7 @@
+*egg-info*
+*__pycache__*
+*.pyc*
+roboverse/envs/assets/ShapeNetCore/*
+roboverse/envs/assets/bullet-objects/*
+data/*
+
