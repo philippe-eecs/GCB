@@ -1,6 +1,6 @@
 import wandb
 import os
-os.environ["WANDB_API_KEY"] = '6f57d0b05e3538d698b78823931acad49e031eb5'
+os.environ["WANDB_API_KEY"] = '' #PLACE API KEY HERE
 os.environ["MUJOCO_GL"] = 'osmesa'
 from rlkit.core import logger
 import numpy as np
@@ -32,14 +32,14 @@ class LoggingUtil():
 			try:
 				os.environ["WANDB_API_KEY"] = details['WANDB_API_KEY']
 			except:
-				os.environ["WANDB_API_KEY"] = '6f57d0b05e3538d698b78823931acad49e031eb5'
+				os.environ["WANDB_API_KEY"] = ''
 
 			wandb.login()
 
 			try:
 				wandb.init(project = project_name, group = details['group'], entity = details['entity'])
 			except:
-				wandb.init(project = project_name, group = details['group'], entity = 'hansenpmeche')
+				wandb.init(project = project_name, group = details['group'], entity = '') #PLACE ENTIY HERE
 
 			self.use_wandb = True
 
