@@ -1,8 +1,10 @@
 # GCB
 GCB Codebase, Work In Progress
-The original codebase was split between 4 different repos (mostly because the pybullet simulator is a lot of work to put together), working on merging them together.
+
+Link for Scripts and Data: https://drive.google.com/drive/folders/1h441MwdUtNyKQbf8XGe2ekGeLDzEdv4j?usp=sharing
 
 For the GCB code, go into goalbisim folder
-Working on moving the launch scripts in so you may launch GCB and collect offline data.
 
-If you are still stuck, email hansenpmeche@berkeley.edu
+Email hansenpmeche@berkeley.edu for help
+
+THIS SOFTWARE AND/OR DATA WAS DEPOSITED IN THE BAIR OPEN RESEARCH COMMONS REPOSITORY ON 10/07/2022
